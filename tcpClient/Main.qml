@@ -121,7 +121,7 @@ ApplicationWindow {
             Connections {
                 target: network
                 function onGetMsgChanged(newMsg){
-                    inMsg = newMsg
+                    inMsg += newMsg
                 }
             }
         }
@@ -140,7 +140,7 @@ ApplicationWindow {
                 Connections {
                     target: network
                     function onStaChanged(newState){
-                        lla.text += newState
+                        lla.text = newState
                     }
                 }
             }

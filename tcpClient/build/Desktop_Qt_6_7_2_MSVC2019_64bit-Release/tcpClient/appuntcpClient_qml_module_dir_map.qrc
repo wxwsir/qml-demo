@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/tcpClient">E:/Documents/untitled71/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/tcpClient</file>
+
+  </qresource>
+</RCC>

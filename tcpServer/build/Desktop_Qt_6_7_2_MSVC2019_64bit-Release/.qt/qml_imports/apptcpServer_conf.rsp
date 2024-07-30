@@ -1,0 +1,14 @@
+-rootPath
+E:/Documents/untitled70
+-cmake-output
+-output-file
+E:/Documents/untitled70/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/.qt/qml_imports/apptcpServer_conf.cmake
+-importPath
+E:/Documents/untitled70/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/tcpServer
+-importPath
+E:/Documents/untitled70/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release
+-importPath
+E:/Qt/6.7.2/msvc2019_64/./qml
+-qrcFiles
+E:/Documents/untitled70/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/.qt/rcc/qmake_tcpServer.qrc
+E:/Documents/untitled70/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/.qt/rcc/apptcpServer_raw_qml_0.qrc

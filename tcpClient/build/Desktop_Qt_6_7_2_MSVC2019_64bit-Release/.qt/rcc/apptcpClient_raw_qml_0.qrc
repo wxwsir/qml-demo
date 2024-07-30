@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/tcpClient/">
+    <file alias="Main.qml">E:/Documents/untitled71/Main.qml</file>
+  </qresource>
+</RCC>
+

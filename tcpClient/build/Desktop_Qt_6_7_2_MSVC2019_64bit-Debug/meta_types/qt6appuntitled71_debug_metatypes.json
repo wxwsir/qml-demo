@@ -1,0 +1,118 @@
+[
+    {
+        "classes": [
+            {
+                "className": "NetWork",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "IP",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "port",
+                                "type": "quint16"
+                            }
+                        ],
+                        "name": "actConnect",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "actDisConnect",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getLoIP",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getConnectedInfo",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getSocketState",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getDisConnectedInfo",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "msg",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "sendMsg",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getMsg",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "NetWork",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newState",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "staChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "socketState",
+                                "type": "QAbstractSocket::SocketState"
+                            }
+                        ],
+                        "name": "do_socketStateChange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "do_connected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "do_disconnected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "do_socketReadyRead",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "NetWork.h",
+        "outputRevision": 68
+    }
+]

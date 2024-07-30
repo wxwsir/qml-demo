@@ -1,0 +1,4 @@
+# 忽略CMakeLists.txt.user文件
+CMakeLists.txt.user
+# 忽略文件夹
+Desktop_Qt_6_7_2_MSVC2019_64bit-Release/

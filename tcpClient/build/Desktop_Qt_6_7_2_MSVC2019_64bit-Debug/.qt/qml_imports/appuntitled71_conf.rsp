@@ -1,0 +1,14 @@
+-rootPath
+E:/Documents/untitled71
+-cmake-output
+-output-file
+E:/Documents/untitled71/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qt/qml_imports/appuntitled71_conf.cmake
+-importPath
+E:/Documents/untitled71/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/untitled71
+-importPath
+E:/Documents/untitled71/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug
+-importPath
+E:/Qt/6.7.2/msvc2019_64/./qml
+-qrcFiles
+E:/Documents/untitled71/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qt/rcc/qmake_untitled71.qrc
+E:/Documents/untitled71/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qt/rcc/appuntitled71_raw_qml_0.qrc

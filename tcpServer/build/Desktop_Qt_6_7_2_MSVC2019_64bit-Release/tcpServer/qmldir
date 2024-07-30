@@ -1,5 +1,0 @@
-module tcpServer
-typeinfo apptcpServer.qmltypes
-prefer :/tcpServer/
-Main 1.0 Main.qml
-

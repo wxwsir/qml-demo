@@ -1,0 +1,131 @@
+{
+    "classes": [
+        {
+            "className": "NetWorks",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "IP",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "port",
+                            "type": "quint16"
+                        }
+                    ],
+                    "name": "startListens",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getLoIP",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getClientConnectedInfo",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getSocketState",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getClientdisConnectedInfo",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "sendMsg",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getMsg",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "NetWorks",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newState",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "staChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newMsg",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "getMsgChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "do_newConnection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "socketState",
+                            "type": "QAbstractSocket::SocketState"
+                        }
+                    ],
+                    "name": "do_socketStateChange",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "do_clientConnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "do_clientDisconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "do_socketReadyRead",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "NetWorkComp.h",
+    "outputRevision": 68
+}

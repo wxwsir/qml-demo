@@ -1,0 +1,5 @@
+module untitled70
+typeinfo appuntitled70.qmltypes
+prefer :/untitled70/
+Main 1.0 Main.qml
+

@@ -5,6 +5,7 @@
 #include <QTcpServer>
 #include <QTcpSocket>
 #include <QDebug>
+
 class NetWorks: public QObject{
     Q_OBJECT
 public:
